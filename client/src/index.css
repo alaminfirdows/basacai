@@ -1,0 +1,95 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+              background-color: whitesmoke;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+ul{
+  list-style: none;
+}
+.App{
+  min-height: 100vh;  
+}
+h1,h2,h3,h4,a,button{
+  -webkit-user-select: none; /* Safari */
+  -ms-user-select: none; /* IE 10 and IE 11 */
+  user-select: none; /* Standard syntax */
+}
+.home_page{
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("https://www.desktopbackground.org/p/2013/07/09/604481_1600x900-nature-wallpapers-desktop-backgrounds-hd-downloads-all-time_1600x900_h.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button{
+  cursor: pointer;
+}
+.container{
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+}
+.redColor{
+  color: red
+}
+.greenColor{
+  color: green
+}
+/* ------------------------Navbar-------------------- */
+@import url(./component/navbar/navbar.css);
+
+/* -------------------------Auth---------------- */
+@import url(./component/auth/auth.css);
+
+/* -----------------------utils---------------------- */
+@import url(./component/utils/utils.css);
+
+/* -------------Profile--------------- */
+@import url(./component/profile/profile.css);
+
+/* -------------------Home---------------- */
+@import url(./component/home/home.css);
+
+/* --------------------new product----------- */
+@import url(./component/admin/crreateProduct/newproduct.css);
+
+/* --------------------All homes------------- */
+@import url(./component/allHomes/allHomes.css);
+
+/* -------------Slide bar-------------------- */
+@import url(./component/admin/slidebar/slidebar.css);
+
+/* --------------------admin----------------- */
+@import url(./component/admin/admin.css);
+
+/* -----------------------Edit User---------------------- */
+@import url(./component/profile/editProfile.css);
+
+/* ---------------------------Footer -------------------- */
+@import url(./component/footer/footer.css);
+
+/* ---------------adds Page------------- */
+@import url(./component/admin/adds/adds.css);
+
+/* ------------------news section at home page--------------- */
+@import url(./component/home/news/news.css);
+
+@import url(./component/contact/contact.css);

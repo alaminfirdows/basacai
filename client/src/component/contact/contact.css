@@ -1,0 +1,101 @@
+.contactImage{
+    height: 400px;
+    width: 100%;
+    background:url(./pexels-pavel-danilyuk-7658410.jpg)rgba(0,0,0,0.7);
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.contactSection{
+    background-color: whitesmoke;
+}
+.contactImage>div{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+.contactImage>div>h1{
+    padding-bottom: 12px;
+}
+.contactImage>div>p{
+    display: flex;
+    align-items: center;
+    word-spacing: 4px;
+}
+.contactIcon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 4rem 0;
+}
+.contactIcon>div>svg{
+    color: #e80566 ;
+    font-size: 24px;
+}
+.contact_container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding-bottom: 3rem;
+}
+.contactIcon>div{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    max-width: 200px;
+    width: 100%;
+    text-align: center;
+    height: 170px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.contactIcon>div>h5{
+    padding: 10px 0;
+    font-size: 18px;
+}
+.contactIcon>div>p{
+    color: #333;
+}
+.contact_form{
+    max-width: 400px;
+    width: 100%;
+    background-color: #ddd;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 6px;
+}
+.contact_form>h2{
+    margin: 8px 0;
+}
+.contact_form>div>input{
+    width: 100%;
+    height: 35px;
+    padding:0 12px;
+    margin: 8px 0;
+    border: 0.0625rem solid #D1D3E0;
+    border-radius: 5px;
+    margin: 8px 0;
+}
+.contact_form>div>textarea{
+    width: 100%;
+    border: 0.0625rem solid #D1D3E0;
+    outline: none;
+    border-radius: 5px;
+    padding:10px 12px;
+    margin: 8px 0;
+}
+.contact_form>button{
+    padding: 10px 14px;
+    background-color: #e80566;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    color: white;
+    margin-bottom: 12px;
+}

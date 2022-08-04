@@ -1,0 +1,45 @@
+.addsContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+.addPage{
+    max-width: 800px;
+}
+.addsShowImg{
+    max-width: 300px;
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+}
+.addsImg{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.addsImgCard>img{
+    width: 350px;
+    height: 150px;
+    object-fit:cover;
+}
+.addsImgCard{
+    position: relative;
+    margin-right: 10px;
+}
+.addsImgCard>span{
+    position: absolute;
+    top: -8px;
+    right: 0;
+    color: red;
+    font-size: 22px;
+}
+@media (max-width:1000px) {
+.addPage{
+    max-width: 650px;
+}
+}
+@media (max-width:855px) {
+.addPage{
+    max-width: 600px;
+}
+}
