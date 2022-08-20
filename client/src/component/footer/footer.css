@@ -1,213 +1,213 @@
-.footer_page{
-    background-color: #1a1a1a;
-    padding-top: 5rem;
+.footer_page {
+	background-color: #1a1a1a;
+	padding-top: 5rem;
 }
-.subscribeSection{
-    background-color: whitesmoke;
+.subscribeSection {
+	background-color: whitesmoke;
 }
-.footerWrapper{
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    padding-bottom: 2rem;
+.footerWrapper {
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding-bottom: 2rem;
 }
-.footerLeft{
-    max-width: 360px;
-    width: 100%;
-    margin-right: 30px;
+.footerLeft {
+	max-width: 360px;
+	width: 100%;
+	margin-right: 30px;
 }
-.footerWrapper h3{
-    color: white;
-    padding-bottom: 12px;
-    text-transform: capitalize;
+.footerWrapper h3 {
+	color: white;
+	padding-bottom: 12px;
+	text-transform: capitalize;
 }
-.footerWrapper p{
-    color: #999;
+.footerWrapper p {
+	color: #999;
 }
-.socialIcon{
-    width: 100%;
-    display: flex;
+.socialIcon {
+	width: 100%;
+	display: flex;
 }
-.socialIcon>a{
-    background-color: #999;
-    padding: 4px 5px; 
-    border-radius: 5px;
-    margin: 10px 5px;
+.socialIcon > a {
+	background-color: #999;
+	padding: 4px 5px;
+	border-radius: 5px;
+	margin: 10px 5px;
 }
-.footerMiddle{
-    max-width: 360px;
-    width: 100%;
+.footerMiddle {
+	max-width: 360px;
+	width: 100%;
 }
-.footerMiddle>div{
-    display: flex;
-    flex-direction: column;
-    padding: 8px 0;
+.footerMiddle > div {
+	display: flex;
+	flex-direction: column;
+	padding: 8px 0;
 }
-.footerMiddle>div>p{
-    display: flex;
-    align-items: center;
+.footerMiddle > div > p {
+	display: flex;
+	align-items: center;
 }
-.footerMiddle>div>p>svg{
-    color: #FB5200;
-    margin-right: 6px;
-    transform: translateY(2px);
+.footerMiddle > div > p > svg {
+	color: #fb5200;
+	margin-right: 6px;
+	transform: translateY(2px);
 }
-.footerRight{
-    max-width: 300px;
-    width: 100%;
+.footerRight {
+	max-width: 300px;
+	width: 100%;
 }
-.footerRight>p{
-    display: flex;
-    align-items: center;
-    color: #999;
-    border-bottom: 1px dashed #6c6969;
+.footerRight > p {
+	display: flex;
+	align-items: center;
+	color: #999;
+	border-bottom: 1px dashed #6c6969;
 }
-.footerRight>p>a{
-    padding: 7px 0;
+.footerRight > p > a {
+	padding: 7px 0;
 }
-.copyRightContainer{
-    padding: 1.8rem 0;
-    color: #999;
-    border-top: 1px solid #333;
+.copyRightContainer {
+	padding: 1.8rem 0;
+	color: #999;
+	border-top: 1px solid #333;
 }
-.copyRightWrapper{
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-between;
+.copyRightWrapper {
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
-.copyRightMenu{
-    display: flex;
-    align-items: center;
+.copyRightMenu {
+	display: flex;
+	align-items: center;
 }
-.copyRightMenu>li{
-    padding: 0 12px;
+.copyRightMenu > li {
+	padding: 0 12px;
 }
-.subscribeCard{
-    width: 100%;
-    border-radius: 5px;
-    background-color: #8B427E;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding: 30px;
-    position: relative;
-    z-index: 1;
-    margin-bottom: -40px;
-    overflow: hidden;
-    margin-top: 4rem;
-
+.subscribeCard {
+	width: 100%;
+	border-radius: 5px;
+	background-color: #8b427e;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 30px;
+	position: relative;
+	z-index: 1;
+	margin-bottom: -40px;
+	overflow: hidden;
+	margin-top: 4rem;
 }
-.subscribeLeft{
-    max-width: 300px;
-    width: 100%;
-}
-.subscribeCard h1{
-    color: white;
-    letter-spacing:0.80px;
-    padding-bottom: 20px;
-}
-.subscribeCard p{
-    color: white;
-}
-.subscribeBox{
-    position: relative;
-}
-.subscribeBox>input{
-    width: 100%;
-    padding: 15px;
-    border: none;
-    border-bottom-left-radius: 50px;
-    border-top-left-radius: 50px;
-    font-family: 'Work Sans';
-    letter-spacing: 1;
-    letter-spacing: 1px;
-    font-size: 18px;
-    outline: none;
-}
-.subscribeBox>button{
-    padding: 16px;
-    background: black;
-    color: white;
-    border: none;
-    font-weight: 700;
-    letter-spacing: 1px;
-    font-size: 18px;
-    width: 120px;
-    border-radius: 50px;
-    position: absolute;
-    top: -1px;
-    right: -29px;
-    outline: none;
-    cursor: pointer;
-}
-.subscribeMiddle>p{
-    padding-bottom: 8px;
-}
-.subscribeSocial{
-    display: flex;
-}
-.subscribeSocial>a{
-    width: 40px;
-    height: 40px;
-    border: 1px solid white;
-    display: grid;
-    place-items: center;
-    border-radius: 100%;
-    padding: 7px;
-    margin-right: 15px;
-    font-size: 27px;
-    color: white;
+.subscribeLeft {
+	max-width: 300px;
+	width: 100%;
 }
 .subscribeCard h1 {
-    font-size: 24px;
+	color: white;
+	letter-spacing: 0.8px;
+	padding-bottom: 20px;
 }
-.subscribeSocial>a>svg{
-    font-size: 22px;
+.subscribeCard p {
+	color: white;
 }
-@media (max-width:700px) {
-    .footerLeft{
-        width: 100%;
-    }
-    .footerMiddle{
-        width: 100%;
-        flex: 1;
-        place-content: center;
-    }
-    .footerWrapper{
-        text-align: left;
-        /* place-items: left; */
-    }
-    .footerWrapper>div{
-        margin: 10px;
-    }
-    .footerRight {
-        width: 100%;
-        max-width: 370px;
-    }
-    .subscribeLeft {
-        margin: 18px 0;
-    }
-    .subscribeMiddle {
-        margin: 18px 0;
-    }
-    .subscribeRight {
-        margin: 18px 0;
-    }
-    .subscribeCard h1 {
-        font-size: 26px;
-    }
-    .copyRightWrapper>div {
-        text-align: center;
-        width: 100%;
-        font-size: 14px;
-    }
-    ul.copyRightMenu {
-        width: 100%;
-        text-align: center;
-        justify-content: center;
-        margin: 5px 0;
-        font-size: 14px;
-    }
+.subscribeBox {
+	position: relative;
+}
+.subscribeBox > input {
+	width: 100%;
+	padding: 15px;
+	border: none;
+	border-bottom-left-radius: 50px;
+	border-top-left-radius: 50px;
+	font-family: 'Work Sans';
+	letter-spacing: 1;
+	letter-spacing: 1px;
+	font-size: 18px;
+	outline: none;
+}
+.subscribeBox > button {
+	padding: 16px;
+	background: black;
+	color: white;
+	border: none;
+	font-weight: 700;
+	letter-spacing: 1px;
+	font-size: 18px;
+	width: 120px;
+	border-radius: 50px;
+	position: absolute;
+	top: -1px;
+	right: -29px;
+	outline: none;
+	cursor: pointer;
+}
+.subscribeMiddle > p {
+	padding-bottom: 8px;
+}
+.subscribeSocial {
+	display: flex;
+}
+.subscribeSocial > a {
+	width: 40px;
+	height: 40px;
+	border: 1px solid white;
+	display: grid;
+	place-items: center;
+	border-radius: 100%;
+	padding: 7px;
+	margin-right: 15px;
+	font-size: 27px;
+	color: white;
+}
+.subscribeCard h1 {
+	font-size: 24px;
+}
+.subscribeSocial > a > svg {
+	font-size: 22px;
+}
+@media (max-width: 700px) {
+	.footerLeft {
+		width: 100%;
+	}
+	.footerMiddle {
+		width: 100%;
+		flex: 1;
+		place-content: center;
+	}
+	.footerWrapper {
+		text-align: left;
+		place-items: left;
+		display: block;
+	}
+	.footerWrapper > div {
+		margin: 10px;
+	}
+	.footerRight {
+		width: 100%;
+		max-width: 370px;
+	}
+	.subscribeLeft {
+		margin: 18px 0;
+	}
+	.subscribeMiddle {
+		margin: 18px 0;
+	}
+	.subscribeRight {
+		margin: 18px 0;
+	}
+	.subscribeCard h1 {
+		font-size: 26px;
+	}
+	.copyRightWrapper > div {
+		text-align: center;
+		width: 100%;
+		font-size: 14px;
+	}
+	ul.copyRightMenu {
+		width: 100%;
+		text-align: center;
+		justify-content: center;
+		margin: 5px 0;
+		font-size: 14px;
+	}
 }
